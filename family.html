@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html>
 <head>
@@ -8,28 +7,50 @@ body {
 	background-color: #00aaa0;
 }
 
+p {
+	font-size: 24px;
+	color: #efefef;
+}
+
 #info {
 
 	font-size: 24px;
-	color: #8ed2c9;
+	color: #efefef;
 }
 
 #image1 {
 	border: 5px solid #8ed2c9;
 	display:inline-block;
-	border-style: solid;
+	
 }
+	
+#image2 {
+	border: 5px solid #8ed2c9;
+	display:inline-block;
+	
+	}
 
 #name {
-	color:  #8ed2c9;
+	color: #00aaa0;
 	text-shadow: 3px 3px black;
 	font-size:35px;
 }
-button1{
-	color: red;
+#button1 {
 	
+    background-color: #efefef; /* Nice Gray */
+    border: black 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 4px;
+    margin-bottom: 50px;
 }
-	
+#button1:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
 .footer {
   position: fixed;
   right: 0;
@@ -40,52 +61,60 @@ button1{
   text-align: center;
 }
 
-
+#img {
+	border: 5px solid #8ed2c9;
+	display:inline-block;
+	}
+#img2 {
+	border: 5px solid #8ed2c9;
+	display:inline-block;
+	}
 </style>
 
 <meta charset="UTF-8">
-<title>James Singewald</title>
+<title>Family&Friends</title>
 </head>
 
 <body align="center">
 	<div id ="wrapper">
 		<div id="name">
-    		<center><h1>Family and Friends</h1></center>
+			<!-- Scrolling Marquee saying page name -->
+			<marquee BGCOLOR=#8ed2c9 SCROLLAMOUNT=15><center><h1>Family & Friends</h1></center></marquee>
+    	</div>
+		
+    	<div id="info">
+		
+		<!-- page intro -->
+		<p>My family and friends have been a big impact on my life and I am very greatful for having them in my life; We participate in many fun things together.</p>
+		
+		<hr></hr>
 		
     	</div>
+	
+	<div id="img">	
+		<center><img src="" width="300" height="300" alt="Maitence" /></center> <!-- Picture of me taken by a friend -->
+	</div>
+	
 	<hr></hr>
-    	<div id="info">
-    		<center><p> Hello my name is James and my close friends are Sam, Ethan, and Caleb . Those are my really close friends. We are good friends because we all look out for each other and love similar activies. Yes, we may fight a lot but thats just the proccess of being friends with someone. We all like hiking and swimming. My close family is my Dad and my cousins, I love my family.
-            </p></center>
-	<hr></hr>
-    	</div>
-    	<div id="image1" align="center">
-        	<img src="Unknown.jpeg" width="480" height="480" alt=""/> 
-        </div>
-	<hr></hr>
-       </div>
+
+	<p> This picture was taked by my friend Caleb; We where on the town water tower. It was a very fun day!
+	</p> <!-- Text talking about the pic -->
+
+       <hr></hr>
+
+	<!-- All my buttons bellow -->
 	<div id="button1">
-       	<a href="index.html">Home</a>
+       		<a class="button" href="index.html">Home</a>
        </div>
-       <div id="button2">
-       	<a href="family.html">Family and Friends</a>
+       <div id="button1">
+       		<a class="button" href="family.html">Family</a>
        </div>
-       <div id="button3">
-       	<a href="education.html">Education</a>
+       <div id="button1">
+       		<a class="button" href="education.html">Future</a>
        </div>
-        <div id="button4">
-       	<a href="pictures.html">Pictures</a>
-       </div>
-         <div id="button4">
-       	<a href="career.html">Career</a>
-       </div>
-        <div id="button4">
-       	<a href="acc.html">Accomplishemts</a>
-       </div>
-	<hr></hr>
 
-
-
-	<div class="footer">Website made by <strong>James Singewald</strong>!</div>
+		
+<!-- My Footer -->
+<div class="footer">This website was developed by <strong>James Singewald (A.K.A Me)</strong>!</div>
 </body>
 </html>
